@@ -52,13 +52,13 @@ def question_7(tab)
 end
 
 def perform (tab)
+  question_7(tab)
   question_1(tab)
   question_2(tab)
   question_3(tab)
   question_4(tab)
   question_5(tab)
-  question_6(tab)
-  question_7(tab)
+  question_6(tab)  
 end
 
 perform(tab)
